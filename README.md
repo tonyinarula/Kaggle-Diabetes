@@ -8,7 +8,7 @@ Analysis of 100k+ patient experiences to find correlations with readmission and 
 - HHS ICD-9 code crosswalk
 
 ### Tools
-Python (pandas, matplotlib, seaborn) · Tableau Public
+Python (pandas, matplotlib, seaborn, scipy) · Tableau Public
 
 ### Key Findings
 - Aftercare NOS has the highest rate of readmission, which can be expected from the high complexity and severity of this broad range of conditions. Psychosis NOS, on the other hand, has the third highest rate of readmission, a result of socioeconomic factors that prevent these patients from receiving the outpatient care they need.
