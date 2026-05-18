@@ -19,4 +19,6 @@ Python (pandas, matplotlib, seaborn, scipy) · Tableau Public
 https://public.tableau.com/views/KaggleDiabetes/Story?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 
 ### Methodology
-[Methodology paragraph]
+This project analyzes over 100,000 diabetic patient hospital encounters from the Diabetes 130-US hospitals dataset to identify factors associated with hospital readmissions, particularly 30-day readmissions. Using Python, Pandas, NumPy, Seaborn, and Tableau, the dataset was cleaned and standardized by handling missing values, removing highly incomplete variables such as weight, consolidating ICD-9 diagnosis codes, and merging diagnosis descriptions through an ICD-9 crosswalk table. Exploratory data analysis focused on demographic characteristics, hospital utilization metrics, diagnoses, laboratory testing, and medication patterns across readmission groups.
+
+Additional analysis was performed on patients with a primary diagnosis of diabetes mellitus to examine HbA1c testing, insulin usage, medication changes, and secondary diagnoses associated with readmission. Statistical testing was used to evaluate differences in HbA1c testing rates between diabetic patients and those readmitted within 30 days. The cleaned datasets were then exported to Tableau to create interactive dashboards and story points highlighting readmission trends, utilization patterns, and clinical risk factors.
